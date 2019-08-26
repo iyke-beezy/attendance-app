@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Alert, Linking, Dimensions, LayoutAnimation, Text, View, StatusBar, StyleSheet, TouchableOpacity, Button, TextInput } from 'react-native';
-import { BarCodeScanner} from 'expo';
+import {BarCodeScanner} from 'expo';
 import * as Permissions from 'expo-permissions'
 
 export default class App extends Component {
