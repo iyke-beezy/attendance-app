@@ -1,4 +1,4 @@
-import React, {component} from 'react'
+import React, {Component} from 'react'
 import {
     AppRegistry,
     Stylesheet,
@@ -9,7 +9,7 @@ import {
 } from 'react-native'
 
 
-export default class Login extends component {
+export default class Login extends Component {
     constructor(props) {
         super(props)
         this.state = {
