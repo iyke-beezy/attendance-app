@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Alert, Linking, Dimensions, LayoutAnimation, Text, View, StatusBar, StyleSheet, TouchableOpacity, Button, TextInput } from 'react-native';
 import {BarCodeScanner} from 'expo';
 import * as Permissions from 'expo-permissions'
 
-export default class App extends Component {
+export default class App extends React.Component {
   //Set a state with hasCameraPermission to contain information regarding camera permission on the device and lastScannedUrl to contain the scanned qrcode or barcode
   state = {
     hasCameraPermission: null,
@@ -141,3 +141,5 @@ const styles = StyleSheet.create({
     fontSize: 18,
   },
 });
+
+
